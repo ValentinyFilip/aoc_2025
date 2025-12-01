@@ -119,18 +119,18 @@ pub fn part2(input: []const u8, debug: bool) !i64 {
 
 test "day01 part1 - short example" {
     const test_input =
-        \\L668
+        \\L68
         \\L30
         \\R48
         \\L5
-        \\R460
+        \\R60
         \\L55
         \\L1
         \\L99
         \\R14
-        \\L382
+        \\L82
     ;
-    try std.testing.expectEqual(@as(i64, 6), try part2(test_input, true)); // Debug ON
+    try std.testing.expectEqual(@as(i64, 6), try part1(test_input, true));
 }
 
 test "day01 part1 - full input" {
@@ -138,7 +138,7 @@ test "day01 part1 - full input" {
     const input = try fetcher.getInput(allocator, 1);
     defer allocator.free(input);
 
-    try std.testing.expectEqual(@as(i64, 1145), try part1(input, false)); // Debug OFF
+    try std.testing.expectEqual(@as(i64, 1145), try part1(input, false));
 }
 
 test "day01 part2 - full input" {
@@ -146,5 +146,5 @@ test "day01 part2 - full input" {
     const input = try fetcher.getInput(allocator, 1);
     defer allocator.free(input);
 
-    try std.testing.expectEqual(@as(i64, 12345), try part2(input, true));
+    try std.testing.expectEqual(@as(i64, 12345), try part2(input, false));
 }
