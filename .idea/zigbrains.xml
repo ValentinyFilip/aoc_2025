@@ -5,7 +5,7 @@
       <list><![CDATA[{
   "name": null,
   "version": null,
-  "path": "C:\\Users\\Filip\\dev\\aoc_2025",
+  "path": "C:\\data\\school\\7PRCC\\aoc_2025",
   "steps": [
     {
       "name": "install",
@@ -18,37 +18,176 @@
       "kind": "uninstall"
     },
     {
-      "name": "run",
-      "description": "Run the app",
+      "name": "test-day01",
+      "description": "Run tests for day01",
       "kind": "run"
     },
     {
-      "name": "test",
-      "description": "Run tests",
+      "name": "example-day01",
+      "description": "Run example tests for day01",
+      "kind": "run"
+    },
+    {
+      "name": "test-day02",
+      "description": "Run tests for day02",
+      "kind": "run"
+    },
+    {
+      "name": "example-day02",
+      "description": "Run example tests for day02",
+      "kind": "run"
+    },
+    {
+      "name": "test-day03",
+      "description": "Run tests for day03",
+      "kind": "run"
+    },
+    {
+      "name": "example-day03",
+      "description": "Run example tests for day03",
+      "kind": "run"
+    },
+    {
+      "name": "test-day04",
+      "description": "Run tests for day04",
+      "kind": "run"
+    },
+    {
+      "name": "example-day04",
+      "description": "Run example tests for day04",
+      "kind": "run"
+    },
+    {
+      "name": "test-day05",
+      "description": "Run tests for day05",
+      "kind": "run"
+    },
+    {
+      "name": "example-day05",
+      "description": "Run example tests for day05",
+      "kind": "run"
+    },
+    {
+      "name": "test-day06",
+      "description": "Run tests for day06",
+      "kind": "run"
+    },
+    {
+      "name": "example-day06",
+      "description": "Run example tests for day06",
+      "kind": "run"
+    },
+    {
+      "name": "test-day07",
+      "description": "Run tests for day07",
+      "kind": "run"
+    },
+    {
+      "name": "example-day07",
+      "description": "Run example tests for day07",
+      "kind": "run"
+    },
+    {
+      "name": "test-day08",
+      "description": "Run tests for day08",
+      "kind": "run"
+    },
+    {
+      "name": "example-day08",
+      "description": "Run example tests for day08",
+      "kind": "run"
+    },
+    {
+      "name": "test-day09",
+      "description": "Run tests for day09",
+      "kind": "run"
+    },
+    {
+      "name": "example-day09",
+      "description": "Run example tests for day09",
+      "kind": "run"
+    },
+    {
+      "name": "test-day10",
+      "description": "Run tests for day10",
+      "kind": "run"
+    },
+    {
+      "name": "example-day10",
+      "description": "Run example tests for day10",
+      "kind": "run"
+    },
+    {
+      "name": "test-day11",
+      "description": "Run tests for day11",
+      "kind": "run"
+    },
+    {
+      "name": "example-day11",
+      "description": "Run example tests for day11",
       "kind": "run"
     }
   ],
   "modules": [
     {
-      "root": "src\\root.zig",
-      "public": true,
+      "root": "src\\day01.zig",
+      "public": false,
       "imports": []
     },
     {
-      "root": "src\\main.zig",
+      "root": "src\\day02.zig",
       "public": false,
-      "imports": [
-        {
-          "name": "aoc_2025",
-          "owner": 0,
-          "module": 0
-        }
-      ]
+      "imports": []
+    },
+    {
+      "root": "src\\day03.zig",
+      "public": false,
+      "imports": []
+    },
+    {
+      "root": "src\\day04.zig",
+      "public": false,
+      "imports": []
+    },
+    {
+      "root": "src\\day05.zig",
+      "public": false,
+      "imports": []
+    },
+    {
+      "root": "src\\day06.zig",
+      "public": false,
+      "imports": []
+    },
+    {
+      "root": "src\\day07.zig",
+      "public": false,
+      "imports": []
+    },
+    {
+      "root": "src\\day08.zig",
+      "public": false,
+      "imports": []
+    },
+    {
+      "root": "src\\day09.zig",
+      "public": false,
+      "imports": []
+    },
+    {
+      "root": "src\\day10.zig",
+      "public": false,
+      "imports": []
+    },
+    {
+      "root": "src\\day11.zig",
+      "public": false,
+      "imports": []
     }
   ],
   "dependencies": []
 }]]></list>
     </option>
   </component>
-  <component name="ZigToolchain" toolchain="afc21300-23c3-4eb0-a8fb-71ca7ef5b14d" />
+  <component name="ZigToolchain" toolchain="92774c2f-3e3c-4662-bb99-17e837a90a63" />
 </project>
