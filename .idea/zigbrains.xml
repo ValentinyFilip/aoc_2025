@@ -5,7 +5,7 @@
       <list><![CDATA[{
   "name": null,
   "version": null,
-  "path": "C:\\data\\school\\7PRCC\\aoc_2025",
+  "path": "C:\\Users\\Filip\\dev\\aoc_2025",
   "steps": [
     {
       "name": "install",
@@ -189,5 +189,5 @@
 }]]></list>
     </option>
   </component>
-  <component name="ZigToolchain" toolchain="92774c2f-3e3c-4662-bb99-17e837a90a63" />
+  <component name="ZigToolchain" toolchain="afc21300-23c3-4eb0-a8fb-71ca7ef5b14d" />
 </project>
